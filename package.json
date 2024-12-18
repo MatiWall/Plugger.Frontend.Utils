@@ -14,6 +14,9 @@
     "pub": "yarn publish --registry http://verdaccio.mw.local/",
     "local-add": "yarn add --registry http://verdaccio.mw.local/"
   },
+  "files": [
+    "dist"
+  ],
   "dependencies": {
     "typescript": "^5.7.2"
   }
