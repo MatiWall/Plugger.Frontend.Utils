@@ -1,0 +1,20 @@
+{
+  "name": "@plugger/utils",
+  "version": "0.0.2",
+  "description": "Core utils for the Plugger framework",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": "git@github.com:MatiWall/Plugger.Frontend.Utils.git",
+  "author": "Matias Wallenius <MatiWall@live.dk>",
+  "license": "no",
+  "private": false,
+  "scripts": {
+    "test": "jest --config jest.config.js",
+    "build": "tsc",
+    "pub": "yarn publish --registry http://verdaccio.mw.local/",
+    "local-add": "yarn add --registry http://verdaccio.mw.local/"
+  },
+  "dependencies": {
+    "typescript": "^5.7.2"
+  }
+}
